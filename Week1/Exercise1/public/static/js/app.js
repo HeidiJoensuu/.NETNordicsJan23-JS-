@@ -7,8 +7,8 @@ import { computerList, features } from "./controllers/computersListController.js
 import { computerView, imageView } from "./controllers/computerViewController.js"
 
 const app = async () => {
-    const balance = new BankBalance("Joe Banker", 0, 100)
-    const pay = new Pay(400)
+    const balance = new BankBalance("Joe Banker", 0, 0)
+    const pay = new Pay(0)
     const data = await fetchData()
 
     //

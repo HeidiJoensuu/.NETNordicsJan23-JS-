@@ -11,7 +11,10 @@ export const useMoney = (balance, selected) => {
     try {
         const euroPrice = selected.price/10    
         if (balance.getBalance() < euroPrice) alert("Not enough money")
-        else balance.useMoney(euroPrice)
+        else {
+            balance.useMoney(euroPrice)
+            alert(`You now own computer: ${selected.title}`)
+        }
     } catch (error) {
         alert(error)
     }

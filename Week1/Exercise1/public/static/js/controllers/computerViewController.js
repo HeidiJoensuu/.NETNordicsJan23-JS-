@@ -5,7 +5,7 @@ export const imageView = (selected) => {
         document.getElementById("image").innerHTML = "<p>Image not found</p>";
     }
     image.src=imageSrc;
-    document.getElementById("image").innerHTML = `<img class="image" src="${imageSrc}" alt="Dewald Avatar" />`
+    document.getElementById("image").innerHTML = `<img src="${imageSrc}" alt="computer" />`
 }
 
 export const computerView = (selected) => {
