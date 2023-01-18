@@ -31,3 +31,5 @@ Exercise folder structure:
         computerViewController.js   # Renders selected computer
         workController.js           # Manages money transfer at Pay
 ```
+Link to running site (18.1) 
+https://heidijoensuu.github.io/
